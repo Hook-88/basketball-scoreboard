@@ -40,6 +40,12 @@ h3 {
   align-items: end;
 }
 
+.leader-highlight {
+  border: 4px solid #F94F6D;
+  width: 147px;
+  height: 112px;
+}
+
 .btns-container {
   margin-top: 26px;
   display: flex;
