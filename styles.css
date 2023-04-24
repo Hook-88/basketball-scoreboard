@@ -4,20 +4,28 @@
 }
 body {
   margin: 0;
-  background-color: #1C234A;
   color: #EEEEEE;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 h3 { 
   font-size: 40px;
-  margin-top: 68px;
+  margin-top: 28px;
   margin-bottom: 21px;
 }
 
 .container {
   display: flex;
   flex-direction: column;
+  width: 450px;
+  background-color: #1C234A;
+  border-radius: 15px;
+  padding-bottom: 10px;
+
 }
 
 .scores-container {
