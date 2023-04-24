@@ -50,9 +50,8 @@ h3 {
 }
 
 .leader-highlight {
-  border: 4px solid #F94F6D;
-  width: 147px;
-  height: 112px;
+  box-sizing: border-box;
+  border: 2px solid #F94F6D;
 }
 
 .btns-container {
