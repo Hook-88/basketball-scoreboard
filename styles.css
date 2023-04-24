@@ -17,6 +17,11 @@ h3 {
 
 .container {
   display: flex;
+  flex-direction: column;
+}
+
+.scores-container {
+  display: flex;
   justify-content: space-around;
 }
 
@@ -42,7 +47,7 @@ h3 {
   justify-content: space-between;
 }
 
-.btns-container > * {
+.score-btn {
   width: 45px;
   height: 45px;
   background-color: #1C234A;
@@ -55,6 +60,27 @@ h3 {
   justify-content: center;
   align-items: center;
   padding: 0;
+} 
+
+/* .btns-container > * {
+  width: 45px;
+  height: 45px;
+  background-color: #1C234A;
+  border: 2px solid #9AAAD8;
+  border-radius: 3px;
+  color: #9AAAD8;
+  font-size: 18px;
+  font-family: timer-font;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+} */
+
+.score-btn:hover {
+  color: #EEEEEE;
+  border: 2px solid #EEEEEE;
+  cursor: pointer;
 }
 
 .score {
@@ -64,3 +90,22 @@ h3 {
   font-size: 90px;
   font-family: timer-font;
 } 
+
+#reset-game-btn {
+  padding: 0;
+  height: 45px;
+  margin: 26px auto;
+  width: 380px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-family: timer-font;
+  border: 2px solid #9AAAD8;
+  color: #9AAAD8;
+  background-color: #1C234A;
+}
+
+#reset-game-btn:hover {
+  border: 2px solid #F94F6D;
+  color: #F94F6D;
+  cursor: pointer;
+}
